@@ -19,10 +19,10 @@ A simple usage example:
 
 * [dia](https://github.com/unger1984/dia) - A simple dart http server in Koa2 style.
 * [dia_router](https://github.com/unger1984/dia_router) - Middleware like as koa_router.
+* [dia_body](https://github.com/unger1984/dia_body) - Package with the middleware for parse request body.
 
 ## Plans:
 
-* dia_body - Package to parse request body. In progress
 * dia_static - Package to serve static files.
 
 ## Features and bugs:
