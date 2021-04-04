@@ -1,6 +1,6 @@
 name: dia_cors
 description: CORS middleware for Dia http server. Use it with 'dia' and 'dia_router' packages
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/unger1984/dia_cors
 
 environment:
