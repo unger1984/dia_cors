@@ -1,3 +1,7 @@
+## 0.0.3
+
+- Update Dia version to 0.0.6
+
 ## 0.0.2
 
 - Change LICENSE
