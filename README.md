@@ -1,4 +1,4 @@
-<a href="https://pub.dartlang.org/packages/dia_router">  
+<a href="https://pub.dartlang.org/packages/dia_cors">  
     <img src="https://img.shields.io/pub/v/dia_cors.svg"  
       alt="Pub Package" />  
 </a>
