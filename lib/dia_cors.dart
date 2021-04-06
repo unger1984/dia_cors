@@ -1,11 +1,9 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
+/// [Middleware] for Dia that set CORS headers
 library dia_cors;
 
 import 'package:dia/dia.dart';
 
-/// Middleware for Dia that set CORS headers
+/// [Middleware] for Dia that set CORS headers
 /// [origin] - Access-Control-Allow-Origin header
 /// [maxAge] - Access-Control-Max-Age header
 /// [credentials] - Access-Control-Allow-Credentials header

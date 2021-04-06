@@ -1,3 +1,8 @@
+## 0.0.4
+
+- Update Dia version to 0.0.8
+- Add more information to Readme
+
 ## 0.0.3
 
 - Update Dia version to 0.0.6

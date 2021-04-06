@@ -1,4 +1,19 @@
+<a href="https://pub.dartlang.org/packages/dia_router">  
+    <img src="https://img.shields.io/pub/v/dia_cors.svg"  
+      alt="Pub Package" />  
+</a>
+
 The CORS middleware for [Dia](https://github.com/unger1984/dia).
+
+## Install:
+
+Add to pubspec.yaml in dependencies section this:
+
+```yaml
+    dia_cors: ^0.0.4
+```
+
+Then run `pub get`
 
 ## Usage:
 
@@ -8,7 +23,7 @@ A simple usage example:
     app.use(cors());
 ```
 
-## Named params:
+## Optional named params:
 
 * `origin` - Access-Control-Allow-Origin header. Default: '*'
 * `maxAge` - Access-Control-Max-Age header
