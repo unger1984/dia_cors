@@ -1,8 +1,8 @@
-import 'package:dia/dia.dart' as dia;
+import 'package:dia/dia.dart';
 import 'package:dia_cors/dia_cors.dart';
 
 void main() {
-  final app = dia.App();
+  final app = App();
 
   /// Add CORS middleware
   app.use(cors());
