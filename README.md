@@ -10,7 +10,7 @@ The CORS middleware for [Dia](https://github.com/unger1984/dia).
 Add to pubspec.yaml in dependencies section this:
 
 ```yaml
-    dia_cors: ^0.0.4
+    dia_cors: ^0.1.0
 ```
 
 Then run `pub get`
