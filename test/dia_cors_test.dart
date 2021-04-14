@@ -25,7 +25,9 @@ void main() {
           .openUrl('OPTIONS', Uri.parse('http://localhost:8080'));
       final response = await request.close();
       expect(
-          response.headers.value('access-control-allow-origin'), equals('*'));
+        response.headers.value('access-control-allow-origin'),
+        equals('*'),
+      );
     });
 
     test('Access-Control-Expose-Headers', () async {
@@ -34,8 +36,10 @@ void main() {
       final request = await HttpClient()
           .openUrl('OPTIONS', Uri.parse('http://localhost:8080'));
       final response = await request.close();
-      expect(response.headers.value('access-control-expose-headers'),
-          equals('Content-Encoding, X-Kuma-Revision'));
+      expect(
+        response.headers.value('access-control-expose-headers'),
+        equals('Content-Encoding, X-Kuma-Revision'),
+      );
     });
 
     test('Access-Control-Max-Age', () async {
@@ -54,7 +58,9 @@ void main() {
           .openUrl('OPTIONS', Uri.parse('http://localhost:8080'));
       final response = await request.close();
       expect(
-          response.headers.value('Access-Control-Allow-Credentials'), ('true'));
+        response.headers.value('Access-Control-Allow-Credentials'),
+        ('true'),
+      );
     });
   });
 }
