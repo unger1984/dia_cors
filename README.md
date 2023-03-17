@@ -1,3 +1,5 @@
+DEPRECATED! Move to MONOREPO https://github.com/unger1984/dia
+
 <a href="https://pub.dartlang.org/packages/dia_cors">  
     <img src="https://img.shields.io/pub/v/dia_cors.svg"  
       alt="Pub Package" />  
